@@ -17,5 +17,19 @@ public class TipeDataNumber {
 
     System.out.println(iniFloat);
     System.out.println(iniDouble);
+
+    int decimalInt = 25;
+    int hexInt = 0xA132B;
+    int binInt = 0b01001;
+
+    System.out.println(decimalInt);
+    System.out.println(hexInt);
+    System.out.println(binInt);
+
+    long balance = 1_000_000_000;
+    int sum = 60_000_000;
+    
+    System.out.println(balance);
+    System.out.println(sum);
   }
 }

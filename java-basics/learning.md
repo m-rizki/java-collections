@@ -51,3 +51,16 @@ Write once, ~~debug~~ run anywhere
 |----| --- | --------------------------- | ----------- |
 | float | 4-bytes | 3.4e-038 **to** 3.4e+038 | 0.0 |
 | double | 8-bytes | 1.7e-038 **to** 1.7e+038 | 0.0 |
+
+### Literals
+
+- decimal
+- hex
+- binary
+
+### Underscore - java 8+
+
+### konversi tipe data number
+
+widening casting (otomatis) : byte -> short -> int -> long -> float -> double
+narrowing casting (manual) : double -> float -> long -> int -> short -> byte
