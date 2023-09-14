@@ -76,3 +76,13 @@ default value boolean : false
 default value untuk string : null
 
 ### menggabungkan String
+
+## Variable
+
+### var keyword - since java 10
+
+### final keyword
+
+javascript variable is mutable variable
+
+final -> immutable variable
