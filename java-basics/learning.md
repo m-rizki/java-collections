@@ -86,3 +86,36 @@ default value untuk string : null
 javascript variable is mutable variable
 
 final -> immutable variable
+
+## Tipe data bukan primitif
+
+- tipe data primitif selalu memiliki default value
+- String bukan tipe data primitif, string adalah tipe data objek, semua tipe data objek jika tidak di assign valuenya maka default valuenya null
+- tipe data bukan primitif bisa memiliki method/function
+- di Java, semua tipe data primitif memiliki representasi tipe data bukan primitifnya
+
+| Primitive | Not Primitive
+| ---------- | ----------- |
+| byte | Byte |
+| short | Short |
+| int | Integer |
+| long | Long |
+| float | Float |
+| double | Double |
+| char | Character |
+| boolean | Boolean |
+|  | String |
+
+## Tipe data Array
+
+### Array initializer
+
+### Operasi di Array
+
+| Operasi Array | Keterangan
+| ---------- | ----------- |
+| array[index] | mengambil data di array |
+| array[index] = value | mengubah data di array |
+| array.length | mengambil panjang array |
+
+### Array di dalam array
