@@ -64,3 +64,15 @@ Write once, ~~debug~~ run anywhere
 
 widening casting (otomatis) : byte -> short -> int -> long -> float -> double
 narrowing casting (manual) : double -> float -> long -> int -> short -> byte
+
+## Tipe data Character
+
+## Tipe data Boolean
+
+default value boolean : false
+
+## Tipe data String
+
+default value untuk string : null
+
+### menggabungkan String
