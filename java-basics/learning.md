@@ -119,3 +119,63 @@ final -> immutable variable
 | array.length | mengambil panjang array |
 
 ### Array di dalam array
+
+## Operasi Matematika
+
+| Operator | Keterangan
+|-------| -------- |
+| + | Penjumlahan |
+| - | Pengurangan |
+| * | Perkalian |
+| / | Pembagian |
+| % | Sisa Pembagian |
+
+### Augmented Assignment
+
+| Operasi matematika | Augmented Assignment
+| ------------- | ------------------ |
+| a = a + 10 | a += 10 |
+| a = a - 10 | a -= 10 |
+| a = a * 10 | a *= 10 |
+| a = a / 10 | a /= 10 |
+| a = a % 10 | a %= 10 |
+
+### Unary Operator
+
+| Operator | Keterangan
+|-------| -------- |
+| ++ | a = a + 1 |
+| -- | a = a - 1 |
+| - | negative |
+| + | positive |
+| ! | Boolean kebalikan (negasi) |
+
+## Operasi Perbandingan
+
+selalu menghasilkan nilai Boolean
+
+| Operator | Keterangan
+|-------| -------- |
+| > | lebih dari |
+| < | kurang dari |
+| >= | lebih dari sama dengan |
+| <= | kurang dari sama dengan |
+| == | sama dengan |
+| != | tidak sama dengan |
+
+## Operasi Boolean
+
+| Operator | Keterangan
+|-------| -------- |
+| \&\& | Dan |
+| \|\| | Atau |
+| \! | Kebalikan (negasi) |
+
+### Table Operasi Boolean
+
+| Nilai 1 | Nilai 2 | \&\& | \|\| | \! dari Nilai 1 |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| true | true | true | true | false |
+| true | false | false | true | false |
+| false | true | false | true | true |
+| false | false | false | false | true |
